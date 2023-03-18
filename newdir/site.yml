@@ -1,0 +1,7 @@
+- name: test module
+  hosts: localhost
+  tasks:
+    - name: call mikhail_testfile
+      mikhail_namespace.mikhail_collection.mikhail_testfile:
+        path: "/temp/test_file"
+        content: "Hello"
