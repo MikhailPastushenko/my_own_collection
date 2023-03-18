@@ -1,0 +1,4 @@
+---
+# defaults file for mikhail_role
+path: "/temp/test_file"
+content: "Hello"

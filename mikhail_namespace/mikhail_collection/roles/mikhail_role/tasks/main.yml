@@ -1,0 +1,6 @@
+---
+# tasks file for mikhail_role
+- name: create file
+  mikhail_namespace.mikhail_collection.mikhail_testfile:
+    path: "{{ path}}"
+    content: "{{ content }}"

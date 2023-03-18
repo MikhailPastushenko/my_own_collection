@@ -1,0 +1,5 @@
+---
+- name: Create File by role
+  hosts: localhost
+  roles:
+    - mikhail_role
